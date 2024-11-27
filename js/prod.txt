@@ -1,0 +1,146 @@
+﻿$products = [
+    [
+        "id" => 1,
+        "image" => "img/Streetwear Design For Sale.jpg",
+        "discount" => "-42% OFF",
+        "name" => "Manfinity UrbanChill Trust the Process White Knit",
+        "original_price" => "₱850",
+        "discounted_price" => "₱500",
+        "description" => "White t-shirt fits slightly oversized with a relaxed, boxy fit."
+    ],
+    [
+        "id" => 2,
+        "image" => "img/Streetwear Design Collection.jpg",
+        "discount" => "-17% OFF",
+        "name" => "Manfinity Silence Men Cotton Graphic Tee",
+        "original_price" => "₱600",
+        "discounted_price" => "₱500",
+        "description" => "Made from luxury cotton featuring soft and breathable fabric ensure quality and longevity."
+    ],
+    [
+        "id" => 3,
+        "image" => "img/har.jpg",
+        "discount" => "-28% OFF",
+        "name" => "Manfinity RebelGame",
+        "original_price" => "₱700",
+        "discounted_price" => "₱500",
+        "description" => "White Tee Collar Short Sleeve Fabric Graphic"
+    ],
+    [
+        "id" => 4,
+        "image" => "img/bie.jpg",
+        "discount" => "-33% OFF",
+        "name" => "Manfinity Trust the Process White Knit Mens T-Shirt",
+        "original_price" => "₱750",
+        "discounted_price" => "₱500",
+        "description" => "White Casual Short Sleeve Polyester Graphic, Letter Embellished Slight Stretch Summer Men Tops"
+    ],
+    [
+        "id" => 5,
+        "image" => "img/arono - Tshirt Design.jpg",
+        "discount" => "-42% OFF",
+        "name" => "DAZY Men' Summer Solid Black T Shirt",
+        "original_price" => "₱850",
+        "discounted_price" => "₱500",
+        "description" => "Black Casual Collar Short Sleeve Fabric Cartoon, Letter Embellished Slight Stretch Summer Men Clothing"
+    ],
+    [
+        "id" => 6,
+        "image" => "img/Girl - Tshirt Design.jpg",
+        "discount" => "-17% OFF",
+        "name" => "DAZY Men Solid Black T Shirt",
+        "original_price" => "₱600",
+        "discounted_price" => "₱500",
+        "description" => "Black Casual Collar Short Sleeve Fabric Cartoon, Letter Embellished Slight Stretch Summer Men Clothing"
+    ],
+    [
+        "id" => 7,
+        "image" => "img/Mind - Tshirt Design.jpg",
+        "discount" => "-28% OFF",
+        "name" => "DAZY Men Solid Round Neck Tee",
+        "original_price" => "₱700",
+        "discounted_price" => "₱500",
+        "description" => "Black Casual Collar Short Sleeve Fabric Cartoon, Letter Embellished Slight Stretch Summer Men Clothing"
+    ],
+    [
+        "id" => 8,
+        "image" => "img/Sicko - Tshirt Design.jpg",
+        "discount" => "-33% OFF",
+        "name" => "DAZY Men's Summer Round Neck Retro T-Shirt With Letter Print",
+        "original_price" => "₱750",
+        "discounted_price" => "₱500",
+        "description" => "Black Casual Collar Short Sleeve Fabric Cartoon, Letter Embellished Slight Stretch Summer Men Clothing"
+    ],
+    [
+        "id" => 9,
+        "image" => "img/Heaven - Tshirt Design.jpg",
+        "discount" => "-42% OFF",
+        "name" => "Streetwear Aesthetic Graphic Tee Shirt",
+        "original_price" => "₱850",
+        "discounted_price" => "₱500",
+        "description" => "Modern retro style streetwear t-shirt design"
+    ],
+    [
+        "id" => 10,
+        "image" => "img/PCAG - Tshirt Design.jpg",
+        "discount" => "-17% OFF",
+        "name" => "Aelfric Eden Graphic Print Vintage Oversized T-Shirt",
+        "original_price" => "₱600",
+        "discounted_price" => "₱500",
+        "description" => "Short description of the product."
+    ],
+    [
+        "id" => 11,
+        "image" => "img/Triple One.jpg",
+        "discount" => "-28% OFF",
+        "name" => "Vintage Spider Graphic 100% Cotton Short Sleeve T-Shirt Black-M",
+        "original_price" => "₱700",
+        "discounted_price" => "₱500",
+        "description" => "White Street Collar Short Sleeve Fabric Halloween"
+    ],
+    [
+        "id" => 12,
+        "image" => "img/Sick Life.jpg",
+        "discount" => "-33% OFF",
+        "name" => "Urban Streetwear T-Shirt Design",
+        "original_price" => "₱750",
+        "discounted_price" => "₱500",
+        "description" => "Short Sleeve T-Shirt, Casual Wear For Spring & Summer"
+    ],
+    [
+        "id" => 13,
+        "image" => "img/Do unique graphic design for your streetwear brand by Willypom _ Fiverr.jpg",
+        "discount" => "-47% OFF",
+        "name" => "The Cat Trip Tee",
+        "original_price" => "₱950",
+        "discounted_price" => "₱500",
+        "description" => "Add some fun to your wardrobe with our Cat Trip Tee! Featuring a trippy cat design"
+    ],
+    [
+        "id" => 14,
+        "image" => "img/America War Girl Graphic Print T-shirt Y2k Retro Loose Short Sleeve Round Neck Cotton Top Gothic.jpg",
+        "discount" => "-33% OFF",
+        "name" => "Buena Suerte Retro Graphic T-shirt With Dice",
+        "original_price" => "₱750",
+        "discounted_price" => "₱500",
+        "description" => "Buena Suerte! Manifest your fortune with this lucky t-shirt."
+    ],
+    [
+        "id" => 15,
+        "image" => "img/ddownload.jpg",
+        "discount" => "-33% OFF",
+        "name" => "Metanoia Studio Inspirational T-Shirt",
+        "original_price" => "₱750",
+        "discounted_price" => "₱500",
+        "description" => "Empower yourself or a loved one with this inspiring T-shirt featuring the uplifting message"
+    ],
+    [
+        "id" => 16,
+        "image" => "img/downloadd.jpg",
+        "discount" => "-47% OFF",
+        "name" => "Bring me into other horizon Men T-Shirt",
+        "original_price" => "₱950",
+        "discounted_price" => "₱500",
+        "description" => "A Great Conversation Starter: Our sarcastic T-shirts are designed to make an impact and start conversations wherever you go."
+    ]
+];

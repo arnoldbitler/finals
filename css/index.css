@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    flex-direction: column;
+}
+
+.container {
+    width: 60%; /* Adjusted width */
+    height: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 2s ease, transform 2s ease, box-shadow 2s ease;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, red, transparent);
+    transition: all 1.2s ease;
+}
+
+.button:hover::before {
+    left: 100%;
+}
+
+.button:hover {
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red;
+}
+
+.random-text {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    filter: blur(5px);
+    transition: filter 1.2s ease;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+h1 {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+    animation-delay: 2s;
+    color: white;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    margin: 20px 0;
+    opacity: 0;
+    filter: blur(10px);
+    animation: fadeInBlur 3s forwards; 
+    animation-delay: 3.5s; 
+}
+
+@keyframes fadeInBlur {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
